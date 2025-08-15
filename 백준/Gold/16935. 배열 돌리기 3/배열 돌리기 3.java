@@ -101,33 +101,6 @@ public class Main {
 
     // 분할 후 오른쪽
     static void method5() {
-//        tempArr = new int[row][col];
-//
-//        for (int i = 0; i < row / 2; i++) {
-//            for (int j = 0; j < col / 2; j++) {
-//                tempArr[i][j + col / 2] = arr[i][j];
-//            }
-//        }
-//
-//        for (int i = 0; i < row / 2; i++) {
-//            for (int j = col / 2; j < col; j++) {
-//                tempArr[i + row / 2][j] = arr[i][j];
-//            }
-//        }
-//
-//        for (int i = row / 2; i < row; i++) {
-//            for (int j = 0; j < col / 2; j++) {
-//                tempArr[i - row / 2][j] = arr[i][j];
-//            }
-//        }
-//
-//        for (int i = row / 2; i < row; i++) {
-//            for (int j = col / 2; j < col; j++) {
-//                tempArr[i][j - col / 2] = arr[i][j];
-//            }
-//        }
-//
-//        arr = tempArr;
 
         for (int i = 0; i < row / 2; i++) {
             for (int j = 0; j < col / 2; j++) {
@@ -150,33 +123,6 @@ public class Main {
 
     // 분할 후 왼쪽
     static void method6() {
-//        tempArr = new int[row][col];
-//
-//        for (int i = 0; i < row / 2; i++) {
-//            for (int j = 0; j < col / 2; j++) {
-//                tempArr[i + row / 2][j] = arr[i][j];
-//            }
-//        }
-//
-//        for (int i = 0; i < row / 2; i++) {
-//            for (int j = col / 2; j < col; j++) {
-//                tempArr[i][j - col / 2] = arr[i][j];
-//            }
-//        }
-//
-//        for (int i = row / 2; i < row; i++) {
-//            for (int j = 0; j < col / 2; j++) {
-//                tempArr[i][j + col / 2] = arr[i][j];
-//            }
-//        }
-//
-//        for (int i = row / 2; i < row; i++) {
-//            for (int j = col / 2; j < col; j++) {
-//                tempArr[i - row / 2][j] = arr[i][j];
-//            }
-//        }
-//
-//        arr = tempArr;
 
         for (int i = 0; i < row / 2; i++) {
             for (int j = 0; j < col / 2; j++) {
@@ -195,8 +141,8 @@ public class Main {
                 swap(i, j, i, j + col / 2);
             }
         }
-        
-        
+
+
     }
 
     static void swap(int row1, int col1, int row2, int col2) {
@@ -215,3 +161,4 @@ public class Main {
 
     }
 }
+
