@@ -31,6 +31,10 @@ public class Main {
         for (int i = 1; i <= saleCnt; i++) {
             long needCost = giftSum[i] / 2;
             if (needCost <= budget) answer = i;
+            else {
+                System.out.println(answer);
+                return;
+            }
         }
 
         for (int i = saleCnt + 1; i <= giftNum; i++) {
